@@ -20,7 +20,7 @@ subject_train<-read.table(file="subject_train.txt", stringsAsFactors = FALSE, co
 y_test<-read.table(file="y_test.txt", stringsAsFactors = FALSE, col.names = "labels")
 y_train<-read.table(file="y_train.txt", stringsAsFactors = FALSE, col.names = "labels")
 
-# Reading X_tes and X_train and naming the columns (features)
+# Reading X_test and X_train and naming the columns (features)
 X_test<-read.table(file="X_test.txt", stringsAsFactors = FALSE, col.names = featurenames$features)
 X_train<-read.table(file="X_train.txt", stringsAsFactors = FALSE, col.names = featurenames$features)
 
