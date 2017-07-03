@@ -16,7 +16,7 @@ featurenames<-read.table("features.txt", stringsAsFactors = FALSE, col.names = c
 subject_test<-read.table(file="subject_test.txt", stringsAsFactors = FALSE, col.names = "subjects")
 subject_train<-read.table(file="subject_train.txt", stringsAsFactors = FALSE, col.names = "subjects")
 
-# Reading y_tes and y_train and naming the columns
+# Reading y_test and y_train and naming the columns
 y_test<-read.table(file="y_test.txt", stringsAsFactors = FALSE, col.names = "labels")
 y_train<-read.table(file="y_train.txt", stringsAsFactors = FALSE, col.names = "labels")
 
