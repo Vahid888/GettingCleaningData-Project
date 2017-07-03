@@ -8,9 +8,14 @@ The "CodeBook.md" is a code book that describes the variables, the data, and the
 
 The following explains how the R-script "run_analysis.R" work.
 To run this script, the following files should be in the working directory
-- features.txt       - activity_labels.txt
-- subject_test.txt   - X_test.txt             - y_test.txt
-- subject_train.txt  - X_train.txt             - y_train.txt
+- features.txt       
+- activity_labels.txt
+- subject_test.txt   
+- X_test.txt             
+- y_test.txt
+- subject_train.txt  
+- X_train.txt             
+- y_train.txt
 
 In addition, to run this script, the library "dplyr" should be installed. 
 
